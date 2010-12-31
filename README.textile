@@ -1,9 +1,3 @@
-----------------------------------------------
-My fork:
-
-I have my own theme.
-There are a couple more functions in there and some aliases and there is a other standard .zshrc
-----------------------------------------------
 A handful of functions, auto-complete helpers, and stuff that makes you shout...
 
 bq. "OH MY ZSHELL!"
