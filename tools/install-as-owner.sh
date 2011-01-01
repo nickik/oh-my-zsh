@@ -6,7 +6,7 @@ fi
 
 echo "Cloning Oh My Zsh..."
 cd ~
-git clone git@github.com:nickik/oh-my-zsh.git .oh-my-zsh.git
+git clone git@github.com:nickik/oh-my-zsh.git .oh-my-zsh
 
 echo "Looking for an existing zsh config..."
 if [ -f ~/.zshrc ] || [ -h ~/.zshrc ]
