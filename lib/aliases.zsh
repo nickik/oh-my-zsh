@@ -35,3 +35,12 @@ alias sdc1mount='sudo mount /dev/sdc1 /media/sdc1mount'
 alias afind='ack -il'
 alias vi='vim'
 
+alias cx='chmod +x'
+alias pg='ping www.google.ch'
+alias pgip='ping 74.125.232.114'
+
+alias pdf="evince "
+
+alias swank="~/.lein/bin/swank-clojure "
+
+alias netrestart="sudo /etc/rc.d/network restart"
