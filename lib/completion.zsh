@@ -40,7 +40,6 @@ cdpath=(.)
 hosts=(
   "$_ssh_hosts[@]"
   "$_etc_hosts[@]"
-  `hostname`
   localhost
 )
 zstyle ':completion:*:hosts' hosts $hosts
