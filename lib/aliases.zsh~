@@ -57,22 +57,7 @@ alias fb="nautilus "
 alias mp="/home/nick/bin/go/bin/go-mtpfs ~/phone "
 alias ump="fusermount -u /home/nick/phone "
 
-alias mp2="/home/nick/bin/go/bin/go-mtpfs ~/phone2 "
-alias ump2="fusermount -u /home/nick/phone2 "
-
-alias mp3="/home/nick/bin/go/bin/go-mtpfs ~/phone3 "
-alias ump3="fusermount -u /home/nick/phone3 "
-
 alias esd="sudo ip link set dev enp0s25 down"
 
 alias wlanrestart="sudo systemctl restart netctl-auto@wlp3s0.service"
 
-
-alias "bindgen"="LD_PRELOAD=/usr/lib/libclang.so bindgen"
-
-alias "podcast"="gpodder"
-
-alias "grep "="grep --color=auto "
-
-alias mbb="sftpman mount BigBox"
-alias umbb="sftpman mount BigBox"

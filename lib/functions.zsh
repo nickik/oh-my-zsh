@@ -37,3 +37,9 @@ function take() {
   mkdir -p $1
   cd $1
 }
+
+function lt() {
+  cd ~/LightTable/
+  ./lighttable &&
+  cd
+}
