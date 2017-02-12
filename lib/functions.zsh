@@ -43,3 +43,19 @@ function lt() {
   ./lighttable &&
   cd
 }
+
+function vpn() {
+    sudo systemctl start openvpn@$1
+}
+function vpnstop {
+    sudo systemctl stop opeenvpn@$1
+}
+function vpnstatus {
+    sudo systemctl status openvpn@$1
+}
+
+
+
+
+
+

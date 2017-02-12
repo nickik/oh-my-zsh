@@ -13,7 +13,7 @@ alias soud='sudo'
 alias suod='sudo'
 alias sduo='sudo'
 
-#alias g='grep -in'
+alias gr='grep -in'
 
 # Show history
 alias history='fc -l 1'
@@ -23,6 +23,7 @@ alias pull_upstream='git pull upstream master'
 # List direcory contents
 alias sl=ls # often screw this up
 
+alias ls='ls --color=auto'
 alias lla='ls -lah'
 alias ll='ls -lh'
 alias la='ls -a'
@@ -33,8 +34,8 @@ alias afind='ack -il'
 alias vi='vim'
 
 alias cx='chmod +x'
-alias pg='ping www.google.ch'
-alias pgip='ping 74.125.232.114'
+alias pg4='ping -4 www.google.ch'
+alias pg='ping -6 www.google.ch'
 
 alias pdf="evince "
 
@@ -54,19 +55,12 @@ alias cpp="rsync -ah --info=progress2 "
 
 alias fb="nautilus "
 
-alias mp="/home/nick/bin/go/bin/go-mtpfs ~/phone "
+alias mp="go-mtpfs ~/phone "
 alias ump="fusermount -u /home/nick/phone "
-
-alias mp2="/home/nick/bin/go/bin/go-mtpfs ~/phone2 "
-alias ump2="fusermount -u /home/nick/phone2 "
-
-alias mp3="/home/nick/bin/go/bin/go-mtpfs ~/phone3 "
-alias ump3="fusermount -u /home/nick/phone3 "
 
 alias esd="sudo ip link set dev enp0s25 down"
 
 alias wlanrestart="sudo systemctl restart netctl-auto@wlp3s0.service"
-
 
 alias "bindgen"="LD_PRELOAD=/usr/lib/libclang.so bindgen"
 
@@ -76,3 +70,8 @@ alias "grep "="grep --color=auto "
 
 alias mbb="sftpman mount BigBox"
 alias umbb="sftpman mount BigBox"
+
+alias dd="dd status=progress "
+
+alias curl6="curl -g -6 "
+
